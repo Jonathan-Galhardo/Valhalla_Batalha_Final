@@ -12,21 +12,41 @@ function ajustaTelaJogo(){
 
 ajustaTelaJogo()
 
-// Criar posições randômicas 
-let posicaoX = Math.floor(Math.random() * largura) - 90
-let posicaoY = Math.floor(Math.random() * altura) - 90
+function posicaoRandomica(){
 
-posicaoX = posicaoX < 0 ? 0 : posicaoX
-posicaoY = posicaoY < 0 ? 0 : posicaoY
+    // Criar posições randômicas 
+    let posicaoX = Math.floor(Math.random() * largura) - 90
+    let posicaoY = Math.floor(Math.random() * altura) - 90
 
-console.log(posicaoX, posicaoY)
+    posicaoX = posicaoX < 0 ? 0 : posicaoX
+    posicaoY = posicaoY < 0 ? 0 : posicaoY
 
-//criar elemento html 
-let inimigo = document.createElement('img')
-inimigo.src = 'imagens/inimigo.png'
-inimigo.className = 'inimigo1'
-inimigo.style.left = posicaoX + 'px'
-inimigo.style.top = posicaoY + 'px'
-inimigo.style.position = 'absolute'
-document.body.appendChild(inimigo)
+    console.log(posicaoX, posicaoY)
+
+    //criar elemento html 
+    let inimigo = document.createElement('img')
+    inimigo.src = 'imagens/inimigo.png'
+    inimigo.className = tamanhoAleatorio()
+    inimigo.style.left = posicaoX + 'px'
+    inimigo.style.top = posicaoY + 'px'
+    inimigo.style.position = 'absolute'
+
+    document.body.appendChild(inimigo)
+ 
+}
+
+//criar tamanhos diferentes de inimigo 
+function tamanhoAleatorio(){
+    let classe = Math.floor(Math.random() * 3)
+    console.log(classe)
+
+    switch (classe){
+        case 0: 
+            return 'inimigo1'
+        case 1: 
+            return 'inimigo2'
+        case 2:
+            return 'inimigo3'
+    }
+}
 
