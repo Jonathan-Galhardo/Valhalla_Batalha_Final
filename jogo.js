@@ -26,12 +26,13 @@ function posicaoRandomica(){
     //criar elemento html 
     let inimigo = document.createElement('img')
     inimigo.src = 'imagens/inimigo.png'
-    inimigo.className = tamanhoAleatorio()
+    inimigo.className = (tamanhoAleatorio() + ' ' +  ladoAleatorio())
     inimigo.style.left = posicaoX + 'px'
     inimigo.style.top = posicaoY + 'px'
     inimigo.style.position = 'absolute'
 
     document.body.appendChild(inimigo)
+    console.log(ladoAleatorio())
  
 }
 
@@ -47,6 +48,20 @@ function tamanhoAleatorio(){
             return 'inimigo2'
         case 2:
             return 'inimigo3'
+    }
+}
+
+// lado aleatório 
+function ladoAleatorio() {
+    let lado = Math.floor(Math.random() * 2)
+    console.log(lado)
+
+    switch (lado){
+        case 0: 
+            return 'ladoA'
+        case 1: 
+            return 'ladoB'
+       
     }
 }
 
