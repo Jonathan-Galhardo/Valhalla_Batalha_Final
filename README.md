@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 Criando jogo app Valhalla Batalha Final 
 
 
-=======
+
 # Jogo Valhalla_Batalha_Final
 Estou Criando meu primeiro jogo em Javascript
 
@@ -11,7 +11,9 @@ Estou Criando meu primeiro jogo em Javascript
 [x] Definir a dimensão do ambiente do jogo <br>
     [x] Definir a altura da página <br>
     [x] Definir a Largura da página <br>
-[ ] Criar poosções randômicas <br>
+[x] Criar posições randômicas <br>
+    [x] Criar coordenadas de forma dinâmica
+    [x] Criar elemento html de forma programática
 [ ] Criar tamanhos randômicos <br>
 [ ] Lado A e Lado B <br>
 [ ] Criar inimigos a cada ciclo de tempo<br>
@@ -25,6 +27,3 @@ Estou Criando meu primeiro jogo em Javascript
 [ ] Criar Nível de dificuldade <br>
 [ ] Ajustes Finais 
 
-
-
->>>>>>> a00ed7617dd725fd1269e0958b029bb0241b3807
