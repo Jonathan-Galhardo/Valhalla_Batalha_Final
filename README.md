@@ -38,5 +38,9 @@ Estou Criando meu primeiro jogo em Javascript
 - [X] Criar opção Vitória 
 - [x] Criar Página inicial 
 - [ ] Criar Nível de dificuldade 
+    - [x] Criar as opções de dificuldade do jogo 
+    - [ ] Implementar nivel de dificuldade Aprendiz
+    - [ ] Implementar nivel de dificuldade Gurreiro
+    - [ ] Implementar nivel de dificuldade Capitão 
 - [ ] Ajustes Finais 
 
