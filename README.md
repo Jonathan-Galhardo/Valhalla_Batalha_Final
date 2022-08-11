@@ -43,5 +43,6 @@ Estou Criando meu primeiro jogo em Javascript
     - [x] Implementar nivel de dificuldade Aprendiz
     - [x] Implementar nivel de dificuldade Gurreiro
     - [x] Implementar nivel de dificuldade Capitão 
-- [ ] Ajustes Finais 
+- [x] Ajustes Finais
+    - [x] mudar o cursor
 

@@ -1,3 +1,7 @@
+html{
+    cursor: url(imagens/machado.png) 30 30, auto;
+}
+
 body {
     background-image: url(imagens/valhalla_foto.jpg);
     background-repeat: no-repeat;
