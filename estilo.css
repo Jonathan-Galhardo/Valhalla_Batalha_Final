@@ -28,3 +28,14 @@ body {
     transform: scaleX(-1);
     
 }
+
+.painel {
+    position: absolute;
+    width: 20%;
+    padding: 5%;
+    bottom: 0;
+    border-top: solid 1x white;
+    background-color: white;
+    opacity: 0.3;
+
+}
