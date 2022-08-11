@@ -35,7 +35,7 @@ Estou Criando meu primeiro jogo em Javascript
     - [X] Criar página game over
     - [x] Criar a função reiniciar jogo 
 - [x] Adicionar Cronômetro 
-- [ ] Criar opção Vitória 
+- [X] Criar opção Vitória 
 - [ ] Criar Página inicial 
 - [ ] Criar Nível de dificuldade 
 - [ ] Ajustes Finais 
