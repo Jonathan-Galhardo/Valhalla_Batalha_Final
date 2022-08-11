@@ -12,3 +12,10 @@ body {
 img {
     margin-top: 10%;
 }
+
+h1{
+    color: rgb(250, 246, 246);
+    font-size: 1em;
+    text-align: center;
+    
+}
