@@ -1,6 +1,7 @@
 //Ajustar tamanho da tela 
 let altura = 0
 let largura = 0
+let vidas = 1
 
 function ajustaTelaJogo(){
 // encontrar a altura e largura da página 
@@ -17,6 +18,15 @@ function posicaoRandomica(){
     //remover inimigo anterior caso exista
     if (document.getElementById('inimigo')){
         document.getElementById('inimigo').remove()
+        
+        //console.log(('vida' + vidas))
+        if (vidas > 3){
+            alert('você perdeu: GAME OVER')
+            
+        }else {
+            document.getElementById('vida' + vidas).src='imagens/coracao_vazio.png'
+            vidas ++
+        }    
     }
 
     // Criar posições randômicas 
