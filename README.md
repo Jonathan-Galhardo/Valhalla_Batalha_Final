@@ -1,10 +1,21 @@
 
+- Meu Primeiro Game 
+
 Criando jogo app Valhalla Batalha Final 
 
+Esse jogo foi criado para desenvolver habilidades em Javascript!
+
+Tecnologias Utilizadas: 
+HTML5 
+CSS
+BOOTSTRAP
+JAVASCRIPT
 
 
-# Jogo Valhalla_Batalha_Final
+# Jogo Valhalla_Glória_Eterna
 Estou Criando meu primeiro jogo em Javascript
+
+- Processo de Criação do jogo dividido em pequenas tarefas 
 
 
 - [x] Iniciar o projeto 
