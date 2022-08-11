@@ -21,7 +21,7 @@ Estou Criando meu primeiro jogo em Javascript
     - [x] criar função para alterar a imagem do inimigo
     - [x] Espelhar imagem inimigo
 - [x] Criar inimigos a cada ciclo de tempo
-- [ ] Remover inimigos a cada ciclo de tempo 
+- [x] Remover inimigos a cada ciclo de tempo 
 - [ ] Criar cenário 
 - [ ] Controlar pontos de vida 
 - [ ] Criar opção Game Over 

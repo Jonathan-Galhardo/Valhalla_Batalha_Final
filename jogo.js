@@ -14,6 +14,11 @@ ajustaTelaJogo()
 
 function posicaoRandomica(){
 
+    //remover mosquito anterior caso exista
+    if (document.getElementById('inimigo')){
+        document.getElementById('inimigo').remove()
+    }
+
     // Criar posições randômicas 
     let posicaoX = Math.floor(Math.random() * largura) - 90
     let posicaoY = Math.floor(Math.random() * altura) - 90
@@ -30,6 +35,7 @@ function posicaoRandomica(){
     inimigo.style.left = posicaoX + 'px'
     inimigo.style.top = posicaoY + 'px'
     inimigo.style.position = 'absolute'
+    inimigo.id = 'inimigo'
 
     document.body.appendChild(inimigo)
     console.log(ladoAleatorio())
