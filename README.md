@@ -22,11 +22,11 @@ Estou Criando meu primeiro jogo em Javascript
     - [x] Espelhar imagem inimigo
 - [x] Criar inimigos a cada ciclo de tempo
 - [x] Remover inimigos a cada ciclo de tempo 
-- [ ] Criar cenário 
+- [x] Criar cenário 
     - [x] Criar plano de fundo do jogo 
     - [x] Criar Painel do jogo 
-    - [ ] Criação das Vidas no jogo  
-    - [ ] Criação do tempo de jogo  
+    - [x] Criação das Vidas no jogo  
+    - [x] Criação do tempo de jogo  
 - [ ] Controlar pontos de vida 
 - [ ] Criar opção Game Over 
 - [ ] Adicionar Cronômetro 

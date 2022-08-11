@@ -31,11 +31,22 @@ body {
 
 .painel {
     position: absolute;
-    width: 20%;
-    padding: 5%;
+    width: 15%;
+    padding: 2%;
+    left: 0;
     bottom: 0;
     border-top: solid 1x white;
     background-color: white;
-    opacity: 0.3;
+    opacity: 0.6;
 
+}
+
+.vida {
+    float: left;
+}
+
+.tempo {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
 }
