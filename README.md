@@ -27,7 +27,10 @@ Estou Criando meu primeiro jogo em Javascript
     - [x] Criar Painel do jogo 
     - [x] Criação das Vidas no jogo  
     - [x] Criação do tempo de jogo  
-- [ ] Controlar pontos de vida 
+- [ ] Controlar pontos de vida
+    - [x] Adicionar evento de click sobre inimigo 
+    - [x] Remover inimigo após o click
+    - [ ] Implementar a lógica dos pontos de vida
 - [ ] Criar opção Game Over 
 - [ ] Adicionar Cronômetro 
 - [ ] Criar opção Vitória 

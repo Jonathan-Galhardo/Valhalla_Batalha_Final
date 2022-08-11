@@ -36,6 +36,9 @@ function posicaoRandomica(){
     inimigo.style.top = posicaoY + 'px'
     inimigo.style.position = 'absolute'
     inimigo.id = 'inimigo'
+    inimigo.onclick = function(){
+        this.remove()
+    }
 
     document.body.appendChild(inimigo)
     console.log(ladoAleatorio())
