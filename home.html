@@ -15,7 +15,7 @@
                 alert('Selecione um nível para iniciar o jogo!')
                 return false
             }
-            alert(nivel)
+            window.location.href = "jogo.html?" + nivel
         }
     </script>
 </head>
@@ -37,7 +37,7 @@
                             <option value="">Selecione o nível</option>
                             <option value="aprendiz">Aprendiz</option>
                             <option value="guerreiro">Guerreiro</option>
-                            <option value="">Capitão</option>
+                            <option value="capitao">Capitão</option>
                         </select>
                     </div>
                 </div>

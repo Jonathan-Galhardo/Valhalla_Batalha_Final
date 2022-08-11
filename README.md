@@ -37,11 +37,11 @@ Estou Criando meu primeiro jogo em Javascript
 - [x] Adicionar Cronômetro 
 - [X] Criar opção Vitória 
 - [x] Criar Página inicial 
-- [ ] Criar Nível de dificuldade 
+- [x] Criar Nível de dificuldade 
     - [x] Criar as opções de dificuldade do jogo 
     - [x] Forçar usuário a escolher um nível
-    - [ ] Implementar nivel de dificuldade Aprendiz
-    - [ ] Implementar nivel de dificuldade Gurreiro
-    - [ ] Implementar nivel de dificuldade Capitão 
+    - [x] Implementar nivel de dificuldade Aprendiz
+    - [x] Implementar nivel de dificuldade Gurreiro
+    - [x] Implementar nivel de dificuldade Capitão 
 - [ ] Ajustes Finais 
 
