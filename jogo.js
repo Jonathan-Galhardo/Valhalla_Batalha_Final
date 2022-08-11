@@ -2,8 +2,10 @@
 let altura = 0
 let largura = 0
 let vidas = 1
+let tempo = 5
 
 function ajustaTelaJogo(){
+
 // encontrar a altura e largura da página 
     altura = window.innerHeight
     largura = window.innerWidth
@@ -12,6 +14,21 @@ function ajustaTelaJogo(){
 }
 
 ajustaTelaJogo()
+
+//criando a função cronometro 
+let cronometro = setInterval(function() {
+    
+    tempo -= 1
+
+    if (tempo < 0 ) {
+        clearInterval(cronometro)
+        clearInterval(criaInimigo)
+        alert('wins')
+    } else{
+    document.getElementById('cronometro').innerHTML = tempo
+    }
+     
+} ,1000 )
 
 function posicaoRandomica(){
 
