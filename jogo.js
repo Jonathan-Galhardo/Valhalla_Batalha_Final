@@ -14,7 +14,7 @@ ajustaTelaJogo()
 
 function posicaoRandomica(){
 
-    //remover mosquito anterior caso exista
+    //remover inimigo anterior caso exista
     if (document.getElementById('inimigo')){
         document.getElementById('inimigo').remove()
     }

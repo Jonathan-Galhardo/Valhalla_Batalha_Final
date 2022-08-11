@@ -23,6 +23,8 @@ Estou Criando meu primeiro jogo em Javascript
 - [x] Criar inimigos a cada ciclo de tempo
 - [x] Remover inimigos a cada ciclo de tempo 
 - [ ] Criar cenário 
+    - [x] Criar plano de fundo do jogo 
+    - [ ] Criar Painel do jogo 
 - [ ] Controlar pontos de vida 
 - [ ] Criar opção Game Over 
 - [ ] Adicionar Cronômetro 
