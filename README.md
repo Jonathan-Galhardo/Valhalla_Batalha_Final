@@ -32,6 +32,8 @@ Estou Criando meu primeiro jogo em Javascript
     - [x] Remover inimigo após o click
     - [X] Implementar a lógica dos pontos de vida
 - [ ] Criar opção Game Over 
+    - [X] Criar página game over
+    - [ ] Criar a função reiniciar jogo 
 - [ ] Adicionar Cronômetro 
 - [ ] Criar opção Vitória 
 - [ ] Criar Página inicial 
