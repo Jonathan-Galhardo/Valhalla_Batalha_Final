@@ -22,6 +22,9 @@ if (nivel === 'aprendiz'){
 } else if ( nivel === 'capitao'){
     //700
     let criaInimigoTempo = 700
+} else if ( nivel === 'rei'){
+    //500
+    let criaInimigoTempo = 500
 }
 
 
