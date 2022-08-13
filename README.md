@@ -12,6 +12,8 @@ BOOTSTRAP
 JAVASCRIPT
 
 
+
+
 # Jogo Valhalla_Glória_Eterna
 Estou Criando meu primeiro jogo em Javascript
 
@@ -56,4 +58,5 @@ Estou Criando meu primeiro jogo em Javascript
     - [x] Implementar nivel de dificuldade Capitão 
 - [x] Ajustes Finais
     - [x] mudar o cursor
+- [x] Realizada manutenção no código em 13/08/2022
 

@@ -4,27 +4,30 @@ let largura = 0
 let vidas = 1
 let tempo = 20
 
-let criaInimigoTempo = 1500
+
 
 let nivel = window.location.search
 
+var criaInimigoTempo = 1500
 
 nivel = nivel.replace('?','')
 //alert(nivel)
 
+
+
 //niveis de dificuldade
 if (nivel === 'aprendiz'){
     //1300
-    let criaInimigoTempo = 1300
+    var criaInimigoTempo = 1300
 } else if (nivel === 'guerreiro') {
     //1000
-    let criaInimigoTempo = 1000
+    var criaInimigoTempo = 1000
 } else if ( nivel === 'capitao'){
     //700
-    let criaInimigoTempo = 700
+    var criaInimigoTempo = 700
 } else if ( nivel === 'rei'){
     //500
-    let criaInimigoTempo = 500
+    var criaInimigoTempo = 500
 }
 
 
